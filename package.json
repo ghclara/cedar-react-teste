@@ -6,9 +6,12 @@
     "@esri/arcgis-rest-feature-layer": "2.0.0",
     "@esri/arcgis-rest-request": "2.0.0",
     "@esri/cedar": "^1.0.1",
+    "@esri/react-arcgis": "^5.0.0",
     "axios": "^0.19.0",
+    "esri-loader": "^2.11.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "react-items-carousel": "^2.8.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },

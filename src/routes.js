@@ -2,19 +2,13 @@ import React from 'react';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import Login from './pages/Login';
-import Dashboard from './pages/Dashboard';
-import New from './pages/New';
-import Graphics from './pages/Graphics';
+import Inicial from './pages/Inicial';
 
-export default function Routes() {
+export default function RoutesMap() {
     return(
         <BrowserRouter>
             <Switch>
-                <Route path="/" exact component={Login} />
-                <Route path="/dashboard" component={Dashboard} />
-                <Route path="/new" component={New} />
-                <Route path="/graficos" component={Graphics} />
+                <Route path="/" component={Inicial} />
             </Switch>
         </BrowserRouter>
     )
